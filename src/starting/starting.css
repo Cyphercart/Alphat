@@ -1,0 +1,28 @@
+* {
+   color: black;
+   font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+h1 {
+   font-size: 4rem;
+}
+
+h3 {
+   font-size: 2rem;
+}
+
+.starting {
+   font-style: italic;
+   background-color: rgb(232, 232, 232);
+   box-shadow: 4px 4px 6px rgba(0, 0, 0, 0.294); /* Subtle shadow */
+   text-align: end;
+   transition: all 0.4s ease; /* Smooth transition for hover effect */
+}
+
+.starting:hover {
+   box-shadow: 0 4px 6px rgba(0, 0, 0, 0.705);
+   animation: hoverAnimation 0.6s ease-in-out;
+}
+
+/* Keyframe Animation */
+

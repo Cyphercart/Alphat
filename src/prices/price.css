@@ -1,0 +1,81 @@
+/* General Styles for Prices Component */
+.Prices {
+   padding: 2rem;
+   background-color: #f9f9f9; /* Light gray background for better contrast */
+   border-radius: 8px;
+   box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+   max-width: 800px;
+   margin: 2rem auto; /* Center the component on the page */
+   text-align: left; /* Align content to the left */
+   font-family: 'Lucida Sans', 'Lucida Grande', sans-serif;
+}
+
+.Prices h2 {
+   font-size: 1.8rem;
+   color: #d32f2f; /* Red color for the heading */
+   margin-bottom: 1rem;
+   text-align: center;
+}
+
+.Prices ol {
+   display: flex;
+   flex-wrap: wrap; /* Allows wrapping for smaller screens */
+   gap: 1rem; /* Add spacing between items */
+   padding: 0;
+   list-style-type: none; /* Remove default list styling */
+   justify-content: space-between; /* Evenly distribute items */
+}
+
+.Prices li {
+   flex: 1; /* Each item takes equal space */
+   min-width: 200px; /* Ensure minimum width for responsive design */
+   background-color: white;
+   border: 1px solid #ddd;
+   border-radius: 6px;
+   padding: 1rem;
+   box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+   text-align: center;
+   font-size: 1rem;
+   color: #333;
+   transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+.Prices li:hover {
+   transform: scale(1.05);
+   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+   color: #d32f2f; /* Highlight text on hover */
+}
+
+.Prices q {
+   font-style: italic;
+   color: #888; /* Slightly lighter gray for quotes */
+}
+
+.Prices button {
+   display: inline-flex;
+   align-items: center; /* Align icon with text */
+   justify-content: center;
+   background-color: #d32f2f; /* Red background for buttons */
+   color: white;
+   border: none;
+   border-radius: 4px;
+   padding: 0.4rem 0.8rem;
+   cursor: pointer;
+   margin-top: 1rem;
+   transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+.Prices button:hover {
+   background-color: #b71c1c; /* Darker red on hover */
+   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Subtle shadow */
+   transform: scale(1.05); /* Slight zoom on hover */
+}
+
+.Prices button svg {
+   margin-left: 0.4rem; /* Space between button text and icon */
+   stroke: white; /* White color for the SVG icon */
+}
+
+.Prices button:focus {
+   outline: none;
+}

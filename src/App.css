@@ -1,0 +1,28 @@
+/* For the entire page */
+body {
+   overflow: hidden; /* Disables both horizontal and vertical scrollbars */
+}
+
+/* Alternatively, if you only want to hide the scrollbar but allow scrolling */
+body {
+   overflow: scroll; /* Ensure scrolling is allowed */
+}
+
+::-webkit-scrollbar {
+   display: none; /* Hides the scrollbar in WebKit browsers (Chrome, Safari) */
+}
+
+html {
+   -ms-overflow-style: none; /* Hides scrollbar in IE and */
+}
+
+.offername h1{
+   text-align: center;
+   font-size: 2rem;
+   color: brown;
+}
+.erorr svg{
+   overflow: hidden;
+   margin:0px 10%;
+   padding-left: 20%;
+}

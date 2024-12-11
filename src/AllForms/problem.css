@@ -1,0 +1,10 @@
+textarea{
+   margin: 10px;
+   height: 180px;
+   width: 300px;
+   justify-content: center;
+}
+
+.contact-form-container{
+   padding-left: 33rem;
+}

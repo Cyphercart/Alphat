@@ -1,0 +1,42 @@
+/* Styling for the 'why' Section */
+.why {
+   background-color: #f9f9f9; /* Soft light-gray background */
+   padding: 2rem;
+   border-radius: 10px; /* Rounded corners */
+   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Subtle shadow for depth */
+   margin: 2rem auto; /* Centering the section */
+   max-width: 800px; /* Restrict width for better readability */
+   text-align: center;
+}
+
+/* Header Styling */
+.why h1 {
+   font-size: 2.2rem; /* Slightly larger title */
+   color: #d32f2f; /* Bold red for emphasis */
+   margin-bottom: 1rem; /* Space below the title */
+   font-weight: bold; /* Make the title stand out */
+}
+
+/* Paragraph Styling */
+.why p {
+   font-size: 1.1rem; /* Larger text for readability */
+   color: #333; /* Dark gray for a professional look */
+   line-height: 1.8; /* Better spacing between lines */
+   text-align: justify; /* Align text for a cleaner appearance */
+   margin-top: 1rem;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+   .why {
+      padding: 1.5rem; /* Reduce padding for smaller screens */
+   }
+
+   .why h1 {
+      font-size: 1.8rem; /* Adjust title size */
+   }
+
+   .why p {
+      font-size: 1rem; /* Adjust paragraph size */
+   }
+}

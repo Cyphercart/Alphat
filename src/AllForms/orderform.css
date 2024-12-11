@@ -1,0 +1,96 @@
+/* Global Styles */
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f4f7fa;  /* Light grey background */
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: center;  /* Centers horizontally */
+  align-items: center;      /* Centers vertically */
+  min-height: 100vh;
+  height: 100%;             /* Ensures the body takes full height */
+  flex-direction: column;   /* Align items in column */
+  text-align: center;       /* Centers text content */
+}
+
+/* Form Container */
+form {
+  background-color: white;  /* White background for the form */
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  width: 100%;
+  max-width: 400px;         /* Limit form width */
+  box-sizing: border-box;
+}
+
+/* Heading */
+h2 {
+  text-align: center;
+  margin-bottom: 20px;
+  color: #d32f2f;  /* Red color for the heading */
+}
+
+/* Label Styles */
+label {
+  font-size: 14px;
+  color: #d32f2f;  /* Red color for labels */
+  margin-bottom: 8px;
+  display: block;
+}
+
+/* Input and Select Styles */
+input[type="email"],
+input[type="text"],
+input[type="tel"],
+select {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 15px;
+  border: 1px solid #d32f2f;  /* Red border for input fields */
+  border-radius: 4px;
+  font-size: 14px;
+  box-sizing: border-box;
+}
+
+/* Button Styles */
+button[type="submit"] {
+  width: 100%;
+  padding: 12px;
+  background-color: #d32f2f;  /* Red background for the button */
+  color: white;
+  border: none;
+  border-radius: 4px;
+  font-size: 16px;
+  cursor: pointer;
+  box-sizing: border-box;
+}
+
+button[type="submit"]:disabled {
+  background-color: #ccc;
+  cursor: not-allowed;
+}
+
+/* Validation Error Styles */
+.ValidationError {
+  color: red;
+  font-size: 12px;
+  margin-top: -10px;
+  margin-bottom: 15px;
+}
+
+/* Responsive Styles */
+@media (max-width: 600px) {
+  form {
+    padding: 15px;
+  }
+
+  button[type="submit"] {
+    font-size: 14px;
+    padding: 10px;
+  }
+}
+
+.form{
+  padding-left: 33%;
+}

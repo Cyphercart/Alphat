@@ -1,0 +1,60 @@
+/* General Styles */
+* {
+   font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+   margin: 0;
+   padding: 0;
+   box-sizing: border-box;
+}
+
+/* Navbar Styling */
+.Navbar {
+   color: rgb(255, 255, 255);
+   background-color: white;
+   display: flex;
+   align-items: center;
+   justify-content: space-between;
+   padding: 1rem 2rem;
+   border-bottom: 2px solid rgb(230, 230, 230);
+   box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.Navbar h1 {
+   font-size: 2rem;
+   font-weight: bold;
+   color: rgb(0, 0, 0);
+}
+
+/* Button Styling */
+button {
+   color: white;
+   background-color: red;
+   font-family: monospace;
+   font-size: 1rem;
+   border: none;
+   border-radius: 5px;
+   padding: 0.5rem 1rem;
+   cursor: pointer;
+   transition: all 0.3s ease;
+   margin-left: 1rem;
+}
+
+button:hover {
+   font-weight: bold;
+   text-decoration: underline;
+   background-color: rgb(255, 255, 255);
+   transform: scale(1.05);
+   color: black;
+   box-sizing: black border-box 1px;
+}
+
+@keyframes buttonhoverAnimation {
+   0% {
+      transform: scale(1);
+   }
+   50% {
+      transform: scale(1.05); /* Slightly enlarge */
+   }
+   100% {
+      transform: scale(1);
+   }
+}
